@@ -1,8 +1,8 @@
 module.exports = {
-    name: "Help",
+    name: "help",
     description: "View commands",
     execute(client, message, args) {
-        message.reply(`The current commands available are:
+        message.channel.send(`The current commands available are:
         
         **=help** - Displays the help menu,
         **=ping** - ping pong anyone?

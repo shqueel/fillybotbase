@@ -18,5 +18,5 @@ client.events = new Discord.Collection();
 
 
 //#region (super secret token) 
-client.login('OTEzNTcxODg3MjQ4OTc3OTUy.YaAcHw.FHORScXuloE80eSkCTa6R4HCqcA')
+client.login(process.env.DJS_TOKEN)
 //#endregion

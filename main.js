@@ -6,7 +6,7 @@ const client = new Discord.Client();
 
 const fs = require('fs');
 const { Server } = require('http');
-const memberCoutner = require('./counters/member-counter');
+const memberCounter = require('./counters/member-counter');
 
 client.commands = new Discord.Collection();
 // client.events = new Discord.Collection();

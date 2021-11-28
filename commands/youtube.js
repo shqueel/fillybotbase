@@ -1,7 +1,7 @@
 module.exports = {
     name: 'youtube',
     description: 'test cmd',
-    execute(message, args) {
+    execute(client, message, args) {
         if(message.member.roles.cache.has('913592569882099722')){
             message.channel.send('there is none');
         } else {

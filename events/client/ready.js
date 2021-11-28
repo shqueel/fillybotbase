@@ -1,4 +1,4 @@
 module.exports = () => {
     console.log("FillyBot online.")
-    bot.user.setActivity("=help // FillyBot")
+    client.user.setActivity("=help // FillyBot")
 }
